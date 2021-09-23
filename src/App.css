@@ -1,0 +1,97 @@
+@import '~antd/dist/antd.css';
+
+body{
+  font-family: 'Kanit', sans-serif !important;
+}
+.App {
+  text-align: center;
+
+  background-image: url("./Images/Cafe-Wallpapers-HD-Free-download.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  padding-right: 8em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 4vmin);
+  color: white;
+}
+
+.font-web{
+  font-size: 20px;
+  color: white;
+}
+.box-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  background: #8080808c;
+  padding: 3em;
+  overflow-y: auto;
+}
+
+.ant-card-grid{
+  box-shadow: none;
+}
+
+.ant-layout{
+  background: none;
+}
+.ant-tabs{
+  color: white;
+}
+.ant-tabs-tab.ant-tabs-tab-active, .ant-tabs-tab:hover {
+  color: unset;
+  background: #bfbfbf;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: unset;
+}
+.ant-tabs-ink-bar{
+  background: #7f5b48;
+}
+.ant-tabs-tab{
+  font-size: 16px;
+}
+
+.layout-wh{
+  border: 2px solid red;
+  /* width: calc( 100vw – 200px ); */
+  /* height: calc( 100vh – 200px );  */
+  /* calc( 100vh – 200px ); */
+}
+
+/* Button */
+.btn {
+  border: none; 
+  color: white; 
+  /* padding: 14px 28px;  */
+  padding: 7px 20px;
+  cursor: pointer; 
+  border-radius: 5px;
+  /* font-size: 2rem; */
+}
+
+.default {background-color: #5b4444;} 
+.default:hover {background: #8b7474;}
+
+.success {background-color: #379975;} /* Green */
+.success:hover {background-color: #57a186;}
+
+.info {background-color: #2b86cf;} /* Blue */
+.info:hover {background: #4394d6;}
+
+.danger {background-color: #d94444;} /* Blue */
+.danger:hover {background: #d66767;}
