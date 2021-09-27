@@ -2,4 +2,4 @@
 reactJS (hooks, redux)
 
 DEMO
-https://wonderful-payne-6f5444.netlify.app
+https://quirky-goldberg-3dc4df.netlify.app
